@@ -1,3 +1,4 @@
+// Ensure this file has a unique path and does not conflict with other pages
 import { HeroSlider } from "@/components/home/hero-slider";
 import { FeaturedEvents } from "@/components/events/featured-events";
 import { CategorySection } from "@/components/categories/category-section";
