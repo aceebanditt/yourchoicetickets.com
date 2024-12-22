@@ -1,12 +1,4 @@
 {
-  "name": "yourchoicetickets",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "build": "next build",
-    "start": "next start",
-    "dev": "next dev"
-  },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
     "@next/swc-wasm-nodejs": "13.5.1",
@@ -48,7 +40,6 @@
     "embla-carousel-react": "^8.3.0",
     "eslint": "8.49.0",
     "eslint-config-next": "13.5.1",
-    "firebase": "^9.0.0",
     "input-otp": "^1.2.4",
     "lucide-react": "^0.446.0",
     "next": "13.5.1",
