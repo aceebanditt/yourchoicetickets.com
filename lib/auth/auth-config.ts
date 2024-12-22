@@ -1,3 +1,4 @@
+import { auth } from "@/lib/auth/firebase-config";
 import { createClient } from '@supabase/supabase-js';
 import { Database } from '@/lib/types/database';
 
