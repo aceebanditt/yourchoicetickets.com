@@ -11,6 +11,26 @@
 			"presentation": {
 				"reveal": "silent"
 			}
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build",
+			"detail": "next build"
+		},
+		{
+			"label": "Setup and Build",
+			"dependsOrder": "sequence",
+			"dependsOn": [
+				"npm install",
+				"npm: build"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
 		}
 	]
 }
